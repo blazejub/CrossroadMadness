@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Crossroad Madness</string>
+    <string name="game_title">CROSSROAD</string>
+    <string name="game_subtitle">MADNESS</string>
+    <string name="play_button">GRAJ</string>
+    <string name="instruction_button">INSTRUKCJA</string>
+    <string name="exit_button">WYJŚCIE</string>
+    <string name="game_started">Gra rozpoczęta!</string>
+    <string name="instructions_soon">Instrukcja gry — wkrótce!</string>
 </resources>
