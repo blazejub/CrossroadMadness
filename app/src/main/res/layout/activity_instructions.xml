@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/game_background">
+
+    <TextView
+        android:id="@+id/instructionTitle"
+        android:text="@string/instruction_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:textColor="@color/dark_green"
+        android:gravity="center"
+        android:layout_marginTop="26dp"
+        android:textStyle="bold"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_instructions_bg"
+        android:clipToOutline="true"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/instruction_goal_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions_goal_title"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:id="@+id/instruction_goal_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions_goal_description"
+            android:textSize="22sp"
+            android:textColor="@color/dark_green"
+            android:layout_marginBottom="24dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/dark_green"
+            android:alpha="0.2" />
+        <TextView
+            android:id="@+id/instructions_controls_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions_controls_title"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green"
+            android:layout_marginBottom="24dp" />
+        <TextView
+            android:id="@+id/instructions_controls_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions_controls_description"
+            android:textSize="22sp"
+            android:textColor="@color/dark_green"
+            android:layout_marginBottom="24dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/dark_green"
+            android:alpha="0.2" />
+        <TextView
+            android:id="@+id/instructions_participants_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions_participants_title"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green"
+            android:layout_marginBottom="24dp" />
+        <TextView
+            android:id="@+id/instructions_participants_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions_participants_description"
+            android:textSize="22sp"
+            android:textColor="@color/dark_green"
+            android:layout_marginBottom="24dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/dark_green"
+            android:alpha="0.2" />
+        <TextView
+            android:id="@+id/instructions_score_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions_score_title"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green"
+            android:layout_marginBottom="24dp" />
+        <TextView
+            android:id="@+id/instructions_score_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions_score_description"
+            android:textSize="22sp"
+            android:textColor="@color/dark_green"
+            android:layout_marginBottom="24dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/dark_green"
+            android:alpha="0.2" />
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/back_to_menu"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/dark_green" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

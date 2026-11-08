@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="game_background">#57B04A</color>
+    <color name="dark_green">#18352A</color>
+    <color name="cream_white">#F6F4E9</color>
+    <color name="accent_yellow">#F4C542</color>
+    <color name="warning_coral">#E66B4C</color>
+    <color name="road_asphalt">#30383B</color>
 </resources>

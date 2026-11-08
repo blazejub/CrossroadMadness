@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Crossroad Madness</string>
+    <string name="game_title">CROSSROAD</string>
+    <string name="game_subtitle">MADNESS</string>
+    <string name="play_button">GRAJ</string>
+    <string name="instruction_button">INSTRUKCJA</string>
+    <string name="exit_button">WYJŚCIE</string>
+    <string name="game_started">Gra rozpoczęta!</string>
+    <string name="instructions_soon">Instrukcja gry — wkrótce!</string>
+    <string name="instructions_goal_title">Cel gry</string>
+    <string name="instructions_goal_description">Zarządzaj ruchem na skrzyżowaniu, unikaj kolizji i utrzymuj płynność ruchu.</string>
+    <string name="instructions_controls_title">Sterowanie</string>
+    <string name="instructions_controls_description">Klikaj sygnalizatory świetlne, aby wybierać kierunek ruchu. Zmiany świateł odbywają się z zachowaniem bezpiecznej sekwencji.</string>
+    <string name="instructions_participants_title">Uczestnicy ruchu</string>
+    <string name="instructions_participants_description">W kolejnych poziomach pojawiają się samochody, piesi, rowerzyści i użytkownicy hulajnóg elektrycznych.</string>
+    <string name="instructions_score_title">Punktacja</string>
+    <string name="instructions_score_description">Zdobywaj punkty za bezpieczne przejazdy i sprawne zarządzanie ruchem. Unikaj nadmiernych kolejek i kolizji.</string>
+    <string name="back_to_menu">WRÓĆ DO MENU</string>
+    <string name="game_screen_title">ROZGRYWKA</string>
 </resources>
