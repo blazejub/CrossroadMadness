@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -27,7 +28,14 @@
         android:textStyle="bold"
         android:textColor="@color/dark_green"
         android:gravity="center" />
-
+    <ImageView
+        android:id="@+id/gameLogo"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/crossroad_logo"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/app_name" />
     <Button
         android:id="@+id/playButton"
         android:layout_width="220dp"
@@ -56,4 +64,6 @@
         android:textSize="26sp"
         android:textColor="@color/white"
         android:backgroundTint="@color/dark_green" />
+
+
 </LinearLayout>
