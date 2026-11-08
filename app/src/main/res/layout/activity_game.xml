@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/game_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_screen_title"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_green" />
+    <Button
+        android:id="@+id/backButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/back_to_menu"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/dark_green" />
+
+</LinearLayout>

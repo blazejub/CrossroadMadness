@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import android.content.Intent;
 
 import com.example.crossroadmadness.R;
 
@@ -20,7 +21,12 @@ public class MainActivity extends AppCompatActivity {
     }
     //Klasa obsługująca przycisk instrukcji
     private void showInstructions(){
-        Toast.makeText(this, R.string.instructions_soon, Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, InstructionsActivity.class);
+        startActivity(intent);
+    }
+    private void startGame(){
+        Intent intent = new Intent(this, GameActivity.class);
+        startActivity(intent);
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         instructionButton.setOnClickListener(v -> showInstructions());
         exitButton.setOnClickListener(v -> closeGame());
 
-        playButton.setOnClickListener(v -> Toast.makeText(this, R.string.game_started, Toast.LENGTH_SHORT).show());
+        playButton.setOnClickListener(v -> startGame());
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
